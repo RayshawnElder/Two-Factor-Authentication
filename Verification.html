@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Registration</title>
+
+<link rel="stylesheet" type="text/css" href="stylesch8.css" />
+
+</head>
+
+<body>
+
+<div style="text-align: center">
+	<ul>
+		<li class="navlist"><a href="Home.html"> Home </a> 
+		<li class="navlist"><a href="Registration.html"> <span class="boldword"> Registration </span> </a>
+		<li class="navlist"><a href="SignIn.html"> Sign In </a>
+	</ul>
+</div>
+
+<h3>Please enter the code you recieved in the email you provided along with the user name entered previously, delivery may take up to 3 minutes.</h3>
+
+<form action="Verificationcode.php" method="POST">
+<fieldset>
+	<legend> Verification </legend>
+    <p> <input name="UserID" type="text" placeholder="UserID" required> </p>
+<p> <input name="VerifyCode" type="text" placeholder="Code" required> </p>
+
+<input type="submit" name="submit" value="Submit" />
+<input type="reset" value="Reset"/>
+</fieldset>
+</form>
+
+</body>
+</html>

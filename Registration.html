@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Registration</title>
+
+<link rel="stylesheet" type="text/css" href="stylesch8.css" />
+
+</head>
+
+<body>
+
+<div style="text-align: center">
+	<ul>
+		<li class="navlist"><a href="Home.html"> Home </a> 
+		<li class="navlist"><a href="Registration.html"> <span class="boldword"> Registration </span> </a>
+		<li class="navlist"><a href="SignIn.html"> Sign In </a>
+	</ul>
+</div>
+
+<h3>If you are not a member of the Pep Boys Loaner Tools website, you need to fill out this registration form.</h3>
+
+<form action="Registration.php" method="POST">
+<fieldset>
+	<legend> Registration Information </legend>
+<p> <input name="UserID" type="text" placeholder="UserID" required> </p>
+<p> <input name="FirstName" type="text" placeholder="FirstName" required> </p>
+<p> <input name="LastName" type="text" placeholder="LastName" required> </p>
+<p> <input name="Email" type="text" placeholder="E-mail" required> </p>
+<p> <input name="StreetNum" type="text" placeholder="Address Number" required> </p>
+<p> <input name="StreetName" type="text" placeholder="Address Name"required> </p>
+<p> <input name="phone" type="text" placeholder="Phone Number" required> </p>
+<p> <input name="City" type="text" placeholder="City" required> </p>
+<p> <input name="ZipCode" type="text" placeholder="ZipCode" required> </p>
+<p> <input name="State" type="text" placeholder="State (Ex. LA)" required> </p>
+
+<input type="submit" name="submit" value="Submit" />
+<input type="reset" value="Reset"/>
+</fieldset>
+</form>
+
+</body>
+</html>
